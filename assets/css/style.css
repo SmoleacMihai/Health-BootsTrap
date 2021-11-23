@@ -1,0 +1,99 @@
+a.navbar-brand{
+    font-family: poppins ;
+    font-size: 34px;
+    font-weight: 400;
+    width: 300px;
+    margin-left: 15px;
+    color: white;
+}
+
+body{
+    background-color: #2B2B2B;
+    overflow-y: hidden;
+}
+
+a.nav-link{
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+a.nav-link:hover{
+    color: #FBFF3F;
+}
+
+a.nav-link{
+    margin-left: 130px;
+}
+div.container img#cartinka{
+    width: 500px;
+    height: 400px;
+}
+
+div#main-s{
+    margin-top: 200px;
+}
+
+.h1{
+    font-size: 54px;
+    font-family: poppins;
+    font-weight: 400;
+    margin: 0px;
+    color: white;
+}
+
+.h2{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+}
+
+div.container div.col button.btn{
+    margin-top: 150px;
+    color: #ffffff;
+    font-size: 32px;
+    font-family: poppins;
+    border: 1px;
+    border-radius: 0%;
+    background-color: #50D8A7;
+    width: 270px;
+    border-radius: 8px;
+    transition: border-radius 1s;
+}
+
+div.container div.col button.btn:hover{
+    background-color: #FBFF3F;
+    font-size: 32px;
+    font-family: poppins;
+    width: 270px;
+}
+
+body img#crug1{
+    position: absolute;
+    transform: translate(1167px, -257px);
+}
+
+/*Second page*/
+
+div.container div.row div.col div.row img{
+    width: 150px;
+    height: 150px;
+    padding: 0%;
+}
+
+div.container div.row div.col div.row{
+    text-align: center;
+    font-family: poppins;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+#buttons{
+    background-color:  #1B1B1B;
+}
