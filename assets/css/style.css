@@ -80,13 +80,13 @@ body img#crug1{
 
 /*Second page*/
 
-div.container div.row div.col div.row img{
+div.container-md div.row div.col-sm div.row img{
     width: 150px;
     height: 150px;
     padding: 0%;
 }
 
-div.container div.row div.col div.row{
+div.container-md div.row div.col-sm div.row{
     text-align: center;
     font-family: poppins;
     font-size: 30px;
@@ -94,6 +94,12 @@ div.container div.row div.col div.row{
     color: white;
 }
 
-#buttons{
+#width-row-fix1{
+    width: 400px;
+}
+
+#col-buttons{
+    padding: 0%;
     background-color:  #1B1B1B;
+    width: 400px;
 }
