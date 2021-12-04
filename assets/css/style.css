@@ -14,7 +14,7 @@ a.navbar-brand{
 
 body{
     background-color: #2B2B2B;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 a.nav-link{
@@ -38,7 +38,7 @@ div.container img#cartinka{
 }
 
 div#main-s{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .h1{
@@ -50,8 +50,9 @@ div#main-s{
 
 .h2{
     margin-top: 30px;
+    font-weight: 200;
     color: white;
-    font-size: 30px;
+    font-size: 45px;
     font-style: normal;
     font-weight: normal;
 }
@@ -76,7 +77,7 @@ div.container div.col button.btn:hover{
 
 body img#crug1{
     position: absolute;
-    transform: translate(1167px, -257px);
+    transform: translate(1167px, -201px);
 }
 
 /*Second page*/
@@ -94,7 +95,7 @@ div.container-md div.row div.col img{
 div.container-md div.row div.col{
     text-align: center;
     font-size: 27px;
-    font-weight: 700;
+    font-weight: 200;
     color: white;
     transition: all, 0.3s;
 }
@@ -129,6 +130,36 @@ div.container-md div.row div.col{
 .button-background:hover p{
     text-align: center;
     font-size: 27px;
-    font-weight: 700;
+    font-weight: 500;
     color: black;
+}
+
+.page-push{
+    margin-bottom: 360px;
+}
+
+div.section-1{
+    background-color: #50D8A7;
+    margin: 0%;
+}
+
+.definition {
+    font-weight: 200;
+    width: 100%;
+}
+
+.def-img{
+    width: 600px;
+    height: 400px;
+}
+
+.section-group-1{
+    margin-left: 115px ;
+    margin-bottom: 30px;
+}
+
+.definition-content{
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
 }
