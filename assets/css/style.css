@@ -1,7 +1,30 @@
-p + a + div{
+p + a + div + .btn{
     font-family: poppins ;
 }
-
+.mt-10{
+    margin-top: 10px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.ml-10{
+    margin-left: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-60{
+    margin-top:60px;
+}
+.mt-110{
+    margin-top: 110px;
+}
 
 a.navbar-brand{
     
@@ -32,6 +55,7 @@ a.nav-link:hover{
 a.nav-link{
     margin-left: 130px;
 }
+
 div.container img#cartinka{
     width: 500px;
     height: 400px;
@@ -49,7 +73,7 @@ div#main-s{
 }
 
 .h2{
-    margin-top: 30px;
+    margin-top: 60px;
     font-weight: 200;
     color: white;
     font-size: 45px;
@@ -66,7 +90,7 @@ div.container div.col button.btn{
     background-color: #50D8A7;
     width: 270px;
     border-radius: 8px;
-    transition: border-radius 1s;
+    transition: all, 0.3s;
 }
 
 div.container div.col button.btn:hover{
@@ -134,7 +158,7 @@ div.container-md div.row div.col{
     color: black;
 }
 
-.page-push{
+.push-b{
     margin-bottom: 360px;
 }
 
@@ -151,15 +175,26 @@ div.section-1{
 .def-img{
     width: 600px;
     height: 400px;
+    margin-bottom: 20px;
 }
 
-.section-group-1{
+.ml-115{
     margin-left: 115px ;
-    margin-bottom: 30px;
 }
 
 .definition-content{
     font-size: 25px;
     color: white;
     font-weight: 200;
+}
+
+button.yellow{
+    width: 250px;
+    background-color: #FBFF3F;
+    font-size: 29px;
+}
+
+button.yellow:hover{
+    background-color: #1B1B1B;
+    color: white;
 }
