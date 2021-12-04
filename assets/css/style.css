@@ -1,5 +1,10 @@
-a.navbar-brand{
+p + a + div{
     font-family: poppins ;
+}
+
+
+a.navbar-brand{
+    
     font-size: 34px;
     font-weight: 400;
     width: 300px;
@@ -14,7 +19,7 @@ body{
 
 a.nav-link{
     color: white;
-    font-family: poppins;
+    
     font-size: 20px;
     font-weight: 400;
     color: white;
@@ -38,7 +43,6 @@ div#main-s{
 
 .h1{
     font-size: 54px;
-    font-family: poppins;
     font-weight: 400;
     margin: 0px;
     color: white;
@@ -48,7 +52,6 @@ div#main-s{
     margin-top: 30px;
     color: white;
     font-size: 30px;
-    font-family: poppins;
     font-style: normal;
     font-weight: normal;
 }
@@ -57,7 +60,6 @@ div.container div.col button.btn{
     margin-top: 150px;
     color: #ffffff;
     font-size: 32px;
-    font-family: poppins;
     border: 1px;
     border-radius: 0%;
     background-color: #50D8A7;
@@ -69,7 +71,6 @@ div.container div.col button.btn{
 div.container div.col button.btn:hover{
     background-color: #FBFF3F;
     font-size: 32px;
-    font-family: poppins;
     width: 270px;
 }
 
@@ -88,7 +89,6 @@ div.container-md div.row div.col-sm div.row img{
 
 div.container-md div.row div.col-sm div.row{
     text-align: center;
-    font-family: poppins;
     font-size: 30px;
     font-weight: 700;
     color: white;
