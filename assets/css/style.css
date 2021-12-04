@@ -96,16 +96,7 @@ div.container-md div.row div.col{
     font-size: 27px;
     font-weight: 700;
     color: white;
-}
-
-#width-row-fix1{
-    width: 400px;
-}
-
-#col-buttons{
-    padding: 0%;
-    
-    width: 400px;
+    transition: all, 0.3s;
 }
 
 .form-group {
@@ -118,4 +109,21 @@ div.container-md div.row div.col{
 
 .button-background{
     background-color:  #1B1B1B;
+    transition: background-color, 0.3s;
+    cursor: pointer;
+}
+
+.button-background:hover{
+    background-color: white;
+}
+
+.button-background:hover img{
+    filter: invert(100%);
+}
+
+.button-background:hover p{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    color: black;
 }
