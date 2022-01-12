@@ -2,6 +2,10 @@ div{
     font-family: poppins;
 }
 
+.black{
+    color: black;
+}
+
 p{
     color: white;
 }
@@ -167,6 +171,11 @@ a:-webkit-any-link{
     background-color: #FBFF3F;
 }
 
+.infoTxt-black{
+        font-size: 1.5rem;
+        color: black;
+}
+
 #secondMoreInfoBtn{
     width: 250px;
     padding-top: 5px;
@@ -177,6 +186,12 @@ a:-webkit-any-link{
     border-color: #50D8A7;
     border-radius: 5px;
     transition: all .3s;
+}
+
+#secondMoreInfoBtn:hover{
+    background-color: #1B1B1B;
+    border-color: #1B1B1B;
+    color: white;
 }
 
 
