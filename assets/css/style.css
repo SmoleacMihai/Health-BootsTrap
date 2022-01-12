@@ -2,10 +2,24 @@ div{
     font-family: poppins;
 }
 
-body{
-    background-color: #2B2B2B;
+p{
+    color: white;
 }
 
+.h1{
+    font-size: 3.5rem;
+}
+
+.h3{
+    font-size: 1.85rem;
+}
+
+body{
+    background-color: #2B2B2B;
+    overflow-x: hidden;
+}
+
+/*Navbar*/
 .navbar-brand{
     font-size: 2rem;
 }
@@ -14,10 +28,35 @@ body{
     color: white;
     font-size: 1.25rem;
     padding: 0%;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 44px;
+    margin-right: 44px;
 }
 
 .active, .nav-link:hover{
     color: #FBFF3F;
+}
+
+/*First page*/
+
+#homePageSection{
+    margin-bottom: 5rem;
+}
+
+#findMoreBtn{
+    background-color: #50D8A7;
+    border-color: #50D8A7;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 160px;
+}
+
+#findMoreBtn:hover{
+    background-color: #FBFF3F;
+    border-color: #FBFF3F;
+    color: black;
+}
+
+#yellowCircleHome{
+    transform: translate(420%, 140%);
 }
