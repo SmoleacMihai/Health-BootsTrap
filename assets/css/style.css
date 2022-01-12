@@ -36,6 +36,10 @@ body{
     color: #FBFF3F;
 }
 
+.active{
+    font-size: 1.5rem;
+}
+
 /*First page*/
 
 #homePageSection{
