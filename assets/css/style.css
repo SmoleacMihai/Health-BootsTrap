@@ -10,6 +10,10 @@ p{
     font-size: 3.5rem;
 }
 
+.h2{
+    font-size: 2.75rem;
+}
+
 .h3{
     font-size: 1.85rem;
 }
@@ -17,6 +21,31 @@ p{
 body{
     background-color: #2B2B2B;
     overflow-x: hidden;
+}
+
+.noPad{
+    padding: 0%;
+}
+
+/*Margin Classes*/
+.ml-10{
+    margin-left: 10px;
+}
+
+.ml-20{
+    margin-left: 20px;
+}
+
+.ml-30{
+    margin-left: 30px;
+}
+
+.ml-40{
+    margin-left: 40px;
+}
+
+.mt-40{
+    margin-top: 40px;
 }
 
 /*Navbar*/
@@ -41,7 +70,6 @@ body{
 }
 
 /*First page*/
-
 #homePageSection{
     margin-bottom: 5rem;
 }
@@ -63,4 +91,9 @@ body{
 
 #yellowCircleHome{
     transform: translate(320%, 92%);
+}
+
+/*Second page*/
+.sectionsButtons{
+    background-color: #1B1B1B;
 }
