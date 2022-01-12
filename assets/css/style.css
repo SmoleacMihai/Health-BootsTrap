@@ -6,6 +6,13 @@ p{
     color: white;
 }
 
+a{
+    text-align: center;
+}
+
+a p{
+    text-decoration: none;
+}
 .h1{
     font-size: 3.5rem;
 }
@@ -46,6 +53,12 @@ body{
 
 .mt-40{
     margin-top: 40px;
+}
+/*Fixes*/
+
+a:-webkit-any-link{
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /*Navbar*/
@@ -96,4 +109,24 @@ body{
 /*Second page*/
 .sectionsButtons{
     background-color: #1B1B1B;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.sectionsButtons:hover{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.textBtnSections{
+    font-size: 1.85rem;
+}
+
+.sectionsButtons:hover p{
+    color: black;
+}
+
+.sectionsButtons:hover img{
+    filter: invert(100%);
+
 }
