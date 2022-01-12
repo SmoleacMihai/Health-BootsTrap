@@ -2,6 +2,10 @@ div{
     font-family: poppins;
 }
 
+img{
+    text-align: center;
+}
+
 .black{
     color: black;
 }
@@ -192,6 +196,17 @@ a:-webkit-any-link{
     background-color: #1B1B1B;
     border-color: #1B1B1B;
     color: white;
+}
+
+/*3 section, second page*/
+.bk-white{
+    background-color: white;
+}
+
+.infoTxtBenefits{
+    font-size: 1.85rem;
+    color: black;
+    text-align: center;
 }
 
 
