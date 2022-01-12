@@ -33,6 +33,10 @@ a p{
     font-size: 1.85rem;
 }
 
+.txt-align{
+    text-align: center;
+}
+
 body{
     background-color: #2B2B2B;
     overflow-x: hidden;
@@ -61,6 +65,10 @@ body{
 
 .mt-40{
     margin-top: 40px;
+}
+
+.mt-60{
+    margin-left: 60px;
 }
 
 .mt-100{
@@ -209,4 +217,28 @@ a:-webkit-any-link{
     text-align: center;
 }
 
+.infoTxtBenefitsMemory{
+    text-align: end;
+    font-size: 1.85rem;
+    color: black;
+}
+
+#thirdMoreInfoBtn{
+    width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 2rem;
+    background-color: #1B1B1B;
+    color: white;
+    border-color: #1B1B1B;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+#thirdMoreInfoBtn:hover{
+    background-color: white;
+    border: 2px solid;
+    border-color: black;
+    color: black;
+}
 
