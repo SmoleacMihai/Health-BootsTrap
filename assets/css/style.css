@@ -1,91 +1,91 @@
-div {
+div{
     font-family: poppins;
 }
 
-img {
+img{
     text-align: center;
 }
 
-.black {
+.black{
     color: black;
 }
 
-p {
+p{
     color: white;
 }
 
-a {
+a{
     text-align: center;
 }
 
-a p {
+a p{
     text-decoration: none;
 }
 
-.h1 {
+.h1{
     font-size: 3.5rem;
 }
 
-.h2 {
+.h2{
     font-size: 2.75rem;
 }
 
-.h3 {
+.h3{
     font-size: 1.85rem;
 }
 
-.noneDisplay {
+.noneDisplay{
     display: none;
 }
 
-.txt-align {
+.txt-align{
     text-align: center;
 }
 
-body {
+body{
     background-color: #2B2B2B;
     overflow-x: hidden;
 }
 
-.noPad {
+.noPad{
     padding: 0%;
 }
 
 
 /*Margin Classes*/
 
-.ml-10 {
+.ml-10{
     margin-left: 10px;
 }
 
-.ml-20 {
+.ml-20{
     margin-left: 20px;
 }
 
-.ml-30 {
+.ml-30{
     margin-left: 30px;
 }
 
-.ml-40 {
+.ml-40{
     margin-left: 40px;
 }
 
-.mt-40 {
+.mt-40{
     margin-top: 40px;
 }
 
-.mt-60 {
+.mt-60{
     margin-left: 60px;
 }
 
-.mt-100 {
+.mt-100{
     margin-top: 180px;
 }
 
 
 /*Fixes*/
 
-a:-webkit-any-link {
+a:-webkit-any-link{
     cursor: pointer;
     text-decoration: none;
 }
@@ -93,11 +93,11 @@ a:-webkit-any-link {
 
 /*Navbar*/
 
-.navbar-brand {
+.navbar-brand{
     font-size: 2rem;
 }
 
-.nav-link {
+.nav-link{
     color: white;
     font-size: 1.25rem;
     padding: 0%;
@@ -106,22 +106,22 @@ a:-webkit-any-link {
 }
 
 .active,
-.nav-link:hover {
+.nav-link:hover{
     color: #FBFF3F;
 }
 
-.active {
+.active{
     font-size: 1.5rem;
 }
 
 
 /*First page*/
 
-#homePageSection {
+#homePageSection{
     margin-bottom: 5rem;
 }
 
-#findMoreBtn {
+#findMoreBtn{
     background-color: #50D8A7;
     border-color: #50D8A7;
     font-size: 2rem;
@@ -130,55 +130,55 @@ a:-webkit-any-link {
     margin-top: 160px;
 }
 
-#findMoreBtn:hover {
+#findMoreBtn:hover{
     background-color: #FBFF3F;
     border-color: #FBFF3F;
     color: black;
 }
 
-#yellowCircleHome {
+#yellowCircleHome{
     transform: translate(320%, 92%);
 }
 
 
 /*Second page*/
 
-.sectionsButtons {
+.sectionsButtons{
     background-color: #1B1B1B;
     cursor: pointer;
     transition: all .4s;
 }
 
-.sectionsButtons:hover {
+.sectionsButtons:hover{
     background-color: white;
     border-radius: 10px;
 }
 
-.textBtnSections {
+.textBtnSections{
     font-size: 1.85rem;
 }
 
-.sectionsButtons:hover p {
+.sectionsButtons:hover p{
     color: black;
 }
 
-.sectionsButtons:hover img {
+.sectionsButtons:hover img{
     filter: invert(100%);
 }
 
 
 /*Second page definition section*/
 
-.bk-green {
+.bk-green{
     background-color: #50D8A7;
 }
 
-.infoTxt {
+.infoTxt{
     font-size: 1.5rem;
     color: white;
 }
 
-#firstMoreInfoBtn {
+#firstMoreInfoBtn{
     width: 250px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -190,25 +190,24 @@ a:-webkit-any-link {
     transition: all .3s;
 }
 
-#firstMoreInfoBtn:hover {
+#firstMoreInfoBtn:hover{
     color: white;
     background-color: #1B1B1B;
     border-color: #1B1B1B;
 }
 
-
 /*Second page methods section*/
 
-.bk-yellow {
+.bk-yellow{
     background-color: #FBFF3F;
 }
 
-.infoTxt-black {
+.infoTxt-black{
     font-size: 1.5rem;
     color: black;
 }
 
-#secondMoreInfoBtn {
+#secondMoreInfoBtn{
     width: 250px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -220,7 +219,7 @@ a:-webkit-any-link {
     transition: all .3s;
 }
 
-#secondMoreInfoBtn:hover {
+#secondMoreInfoBtn:hover{
     background-color: #1B1B1B;
     border-color: #1B1B1B;
     color: white;
@@ -229,23 +228,23 @@ a:-webkit-any-link {
 
 /*3 section, second page*/
 
-.bk-white {
+.bk-white{
     background-color: white;
 }
 
-.infoTxtBenefits {
+.infoTxtBenefits{
     font-size: 1.85rem;
     color: black;
     text-align: center;
 }
 
-.infoTxtBenefitsMemory {
+.infoTxtBenefitsMemory{
     text-align: end;
     font-size: 1.85rem;
     color: black;
 }
 
-#thirdMoreInfoBtn {
+#thirdMoreInfoBtn{
     width: 250px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -257,7 +256,7 @@ a:-webkit-any-link {
     transition: all .3s;
 }
 
-#thirdMoreInfoBtn:hover {
+#thirdMoreInfoBtn:hover{
     background-color: white;
     border: 2px solid;
     border-color: black;
@@ -270,27 +269,36 @@ a:-webkit-any-link {
 
 /*Q&A page*/
 
-.searchQuestion {
+.searchQuestion{
     background-color: #1B1B1B;
+    color: white;
 }
 
-.searchQuestion::placeholder {
+.searchQuestion::placeholder{
     font-size: 1.25rem;
 }
 
-.searchQuestion:focus {
+.searchQuestion:focus{
     box-shadow: 0 0 3px 2px #50D8A7;
     border-color: #50D8A7;
     background-color: #1B1B1B;
+    color: white;
 }
 
-#askMoreQuestionsBtn {
+#askMoreQuestionsBtn{
     background-color: #50D8A7;
     color: black;
     font-size: 26px;
+    border: none;
+    transition: all .3s;
 }
 
-.darkQuestion {
+#askMoreQuestionsBtn:hover{
+    background-color: #1B1B1B;
+    color: white;
+}
+
+.darkQuestion{
     background-color: #1B1B1B;
     cursor: pointer;
     position: relative;
@@ -298,21 +306,21 @@ a:-webkit-any-link {
     transition: all .3s;
 }
 
-.darkQuestion:hover {
+.darkQuestion:hover{
     font-size: 26px;
 }
 
-.colorfulQuestion {
+.colorfulQuestion{
     background: linear-gradient(#50D8A7, #FBFF3F);
     cursor: pointer;
     position: relative;
     transition: all .3s;
 }
 
-.colorfulQuestion:hover {
+.colorfulQuestion:hover{
     font-size: 26px;
 }
 
-.questionsInfo {
-    font-size: 22px;
+.questionsInfo{
+    font-size: 24px;
 }
