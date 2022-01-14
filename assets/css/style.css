@@ -33,6 +33,10 @@ a p{
     font-size: 1.85rem;
 }
 
+.noneDisplay{
+    display: none;
+}
+
 .txt-align{
     text-align: center;
 }
@@ -241,4 +245,6 @@ a:-webkit-any-link{
     border-color: black;
     color: black;
 }
+
+/*Random Advice page*/
 
