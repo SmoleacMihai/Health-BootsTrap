@@ -349,3 +349,21 @@ a:-webkit-any-link{
     0%{font-size: 1px;}
     100%{font-size: 40px;}
 }
+
+.whyUs{
+    background-image: url("../images/background-img.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.line{
+    height: 3px;
+    background-color: white;
+}
+
+.whyUsList{
+    font-size: 1.75rem;
+    background-color: rgba(27, 27, 27, 0.7);
+    border: 3px solid white;
+    height: fit-content;
+}
