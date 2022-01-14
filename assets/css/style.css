@@ -10,6 +10,18 @@ img{
     color: black;
 }
 
+.white{
+    color: white;
+}
+
+.yellow{
+    color: #FBFF3F;
+}
+
+.green{
+    color: #50D8A7;
+}
+
 p{
     color: white;
 }
@@ -323,4 +335,17 @@ a:-webkit-any-link{
 
 .questionsInfo{
     font-size: 24px;
+}
+
+/*About Us page*/
+
+.animationTxt{
+    font-size: 40px;
+    animation-name: Element;
+    animation-duration: 2s; 
+}
+
+@keyframes Element{
+    0%{font-size: 1px;}
+    100%{font-size: 40px;}
 }
