@@ -289,3 +289,30 @@ a:-webkit-any-link {
     color: black;
     font-size: 26px;
 }
+
+.darkQuestion {
+    background-color: #1B1B1B;
+    cursor: pointer;
+    position: relative;
+    color: white;
+    transition: all .3s;
+}
+
+.darkQuestion:hover {
+    font-size: 26px;
+}
+
+.colorfulQuestion {
+    background: linear-gradient(#50D8A7, #FBFF3F);
+    cursor: pointer;
+    position: relative;
+    transition: all .3s;
+}
+
+.colorfulQuestion:hover {
+    font-size: 26px;
+}
+
+.questionsInfo {
+    font-size: 22px;
+}
