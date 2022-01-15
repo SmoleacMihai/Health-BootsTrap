@@ -7,6 +7,9 @@ img{
 }
 
 /*Footer*/
+footer{
+    background-color: #1B1B1B;
+}
 .navbar-brand:hover, .white{
     color: white;
 }
