@@ -325,7 +325,9 @@ a:-webkit-any-link{
 
 
 /*Random Advice page*/
-
+.randomContent{
+    border: 2px solid white;
+}
 
 /*Q&A page*/
 
