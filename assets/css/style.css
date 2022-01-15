@@ -30,6 +30,12 @@ img{
     color: white;
 }
 
+.socialIcons{
+    widows: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
 /**/
 .black{
     color: black;
@@ -267,6 +273,10 @@ a:-webkit-any-link{
 
 .bk-white{
     background-color: white;
+}
+
+#benefitsSection{
+    padding-bottom: 200px;
 }
 
 .infoTxtBenefits{
