@@ -9,6 +9,10 @@ function clicked(control){
    }
 }
 
+function firstClick(firstTime){
+   
+}
+
 
 
 // function unhider(){
