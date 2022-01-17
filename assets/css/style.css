@@ -99,6 +99,9 @@ body{
 
 
 /*Margin Classes*/
+.mb-100{
+    margin-bottom: 100px;
+}
 
 .ml-10{
     margin-left: 10px;
@@ -127,6 +130,11 @@ body{
     margin-top: 100px;
 }
 
+.mlr-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .mt-270{
     margin-top: 270px;
 }
@@ -134,11 +142,17 @@ body{
 .pb-120{
     padding-bottom: 120px;
 }
+.pb-20{
+    padding-bottom: 20px;
+}
 
 .pb-100{
     padding-bottom: 200px;
 }
 
+.w60{
+    width: 60%;
+}
 /*Fixes*/
 
 a:-webkit-any-link{
@@ -333,7 +347,14 @@ a:-webkit-any-link{
 
 /*Random Advice page*/
 .randomContent{
-    border: 2px solid white;
+    margin-bottom: 250px;
+    margin-top: 130px;
+    width: 70%;
+    height: 60%;
+    place-items: center;
+    border: 3px solid white;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #getAdviceBtn{
@@ -343,12 +364,27 @@ a:-webkit-any-link{
     text-transform: uppercase;
     color: black;
     font-size: 28px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #getAdviceBtn:hover{
     color: black;
     background: linear-gradient(#FBFF3F, #50D8A7);
+}
+.text-box-start{
+    font-size: 1.25rem;
+}
+.titleRandomStart{
+    font-size: 4rem;
+    color: #FBFF3F;
+}
+.text-box{
+    font-size: 1rem;
+}
+
+.titleRandom{
+    font-size: 1.75rem;
+    color: #FBFF3F;
 }
 
 /*Q&A page*/
