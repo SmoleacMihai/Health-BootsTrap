@@ -34,7 +34,7 @@ footer{
 }
 
 .socialIcons{
-    widows: 45px;
+    width: 45px;
     height: 45px;
     margin-right: 10px;
 }
@@ -343,6 +343,7 @@ a:-webkit-any-link{
     border: 2px solid black;
     color: black;
 }
+
 
 /*Random Advice page*/
 .randomContent{
