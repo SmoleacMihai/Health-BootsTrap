@@ -26,29 +26,20 @@ let count = 0
 // }
 
 //  //main program
-
+let i = 0
 //  document.getElementById("getAdviceBtn").onclick = unhider() 
-
+let usedRandom = 11
  $('#getAdviceBtn').click(function(){
-   $('#content0').removeClass('text-box');
-   $('#content0').addClass('text-box noneDisplay');
-   let i = getRandomNumberBetween(1,10)
-   let usedRandom = i
-   let delLater = i
-   while(i == usedRandom){
-           i = getRandomNumberBetween(1,10)
+   for(i = 0; i < 11; i++){
+      $('#content'+i).removeClass('text-box');
+      $('#content'+i).addClass('text-box noneDisplay');
+      console.log(i)
    }
-   $('#content'+i).removeClass('text-box noneDisplay');
-   $('#content'+i).addClass('text-box');
-   ++count
-   console.log(count)
-   i = getRandomNumberBetween(1,10)
-   usedRandom = i
-   let delMoreLater = i
-   if(count >= 2){
-      $('#content'+delLater).removeClass('text-box');
-      $('#content'+delLater).addClass('text-box noneDisplay');
-      $('#content'+delMoreLater).removeClass('text-box');
-      $('#content'+delMoreLater).addClass('text-box noneDisplay');
+   let d = getRandomNumberBetween(1,10)
+   while(d == usedRandom){
+           d = getRandomNumberBetween(1,10)
    }
+   $('#content'+d).removeClass('text-box noneDisplay');
+   $('#content'+d).addClass('text-box');
+   usedRandom = d
 });
