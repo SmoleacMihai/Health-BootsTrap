@@ -200,7 +200,7 @@ a:-webkit-any-link{
 
 #findMoreBtn{
     background-color: #50D8A7;
-    border-color: #50D8A7;
+    border-color: transparent;
     font-size: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -209,7 +209,7 @@ a:-webkit-any-link{
 
 #findMoreBtn:hover{
     background-color: #FBFF3F;
-    border-color: #FBFF3F;
+    border-color: transparent;
     color: black;
 }
 
@@ -262,7 +262,7 @@ a:-webkit-any-link{
     font-size: 2rem;
     background-color: #FBFF3F;
     color: black;
-    border-color: #FBFF3F;
+    border-color: transparent;
     border-radius: 5px;
     transition: all .3s;
 }
@@ -270,7 +270,7 @@ a:-webkit-any-link{
 #firstMoreInfoBtn:hover{
     color: white;
     background-color: #1B1B1B;
-    border-color: #1B1B1B;
+    border-color: transparent;
 }
 
 /*Second page methods section*/
@@ -291,14 +291,14 @@ a:-webkit-any-link{
     font-size: 2rem;
     background-color: #50D8A7;
     color: black;
-    border-color: #50D8A7;
+    border-color: transparent;
     border-radius: 5px;
     transition: all .3s;
 }
 
 #secondMoreInfoBtn:hover{
     background-color: #1B1B1B;
-    border-color: #1B1B1B;
+    border-color: transparent;
     color: white;
 }
 
@@ -333,7 +333,7 @@ a:-webkit-any-link{
     background-color: #1B1B1B;
     color: white;
     border: 2px solid;
-    border-color: #1B1B1B;
+    border-color: transparent;
     border-radius: 5px;
     transition: all .3s;
 }
@@ -400,7 +400,7 @@ a:-webkit-any-link{
 
 .searchQuestion:focus{
     box-shadow: 0 0 3px 2px #50D8A7;
-    border-color: #50D8A7;
+    border-color: transparent;
     background-color: #1B1B1B;
     color: white;
 }
